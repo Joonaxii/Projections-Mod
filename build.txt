@@ -1,0 +1,4 @@
+displayName = Projections
+author = Joonaxii
+version = 0.5
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, lib\*, .git\*, *.ase, *.aseprite

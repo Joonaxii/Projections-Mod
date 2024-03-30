@@ -1,0 +1,1 @@
+Adds support for image projections that can be used as just paintings, as a "TV" or other set pieces.

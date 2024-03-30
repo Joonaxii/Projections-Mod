@@ -1,0 +1,163 @@
+Items: {
+	ProjectionItem: {
+		DisplayName: Projection Frame
+		Tooltip: ""
+	}
+
+	RarityStone0: {
+		DisplayName: Rarity Stone LV1
+		Tooltip: ""
+	}
+
+	RarityStone1: {
+		DisplayName: Rarity Stone LV2
+		Tooltip: ""
+	}
+
+	RarityStone2: {
+		DisplayName: Rarity Stone LV3
+		Tooltip: ""
+	}
+
+	RarityStone3: {
+		DisplayName: Rarity Stone LV4
+		Tooltip: ""
+	}
+
+	RarityStone4: {
+		DisplayName: Rarity Stone LV5
+		Tooltip: ""
+	}
+
+	BookOfProjections: {
+		DisplayName: Book of Projections
+		Tooltip: ""
+	}
+
+	ProjectionMaterial: {
+		DisplayName: P-Material
+		Tooltip: ""
+	}
+
+	LicenseToProject: {
+		DisplayName: License to Project
+		Tooltip: ""
+	}
+
+	ProjectionBundle: {
+		DisplayName: Bundle of Projections
+		Tooltip: ""
+	}
+
+	ProjectorSmallItem: {
+		DisplayName: Small Projector (1x1)
+		Tooltip: ""
+	}
+
+	ProjectorItem: {
+		DisplayName: Medium Projector (3x1)
+		Tooltip: ""
+	}
+
+	ProjectorBigItem: {
+		DisplayName: Large Projector (3x3)
+		Tooltip: ""
+	}
+
+	PlayerProjectorItem: {
+		DisplayName: Player Projector
+		Tooltip: ""
+	}
+}
+
+Tiles: {
+	ProjectorTile.MapEntry: Mods.Projections.Tiles.ProjectorTile.MapEntry
+	ProjectorSmallTile.MapEntry: Mods.Projections.Tiles.ProjectorSmallTile.MapEntry
+	ProjectorBigTile.MapEntry: Mods.Projections.Tiles.ProjectorBigTile.MapEntry
+}
+
+NPCs: {
+	ProjectionTrader: {
+		DisplayName: Projection Trader
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I'm projecting that I'll (hopefully) have a home soon...
+			FarFromHome: I can't seem my home.
+			LoveSpace: I like all the space I have, so much room for projections.
+			DislikeCrowded: I like people looking at my projection collection, but this is too many people.
+			HateCrowded: Seriously why are there so many people here!?
+			LikeNPC_Painter: I like {NPCName}.
+			Painter_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+}
+
+Configs: {
+	ProjectionsClientConfig: {
+		DisplayName: Projections Client Config
+
+		Volume: {
+			Label: Volume
+			Tooltip: Overall volume of ALL Projectors.
+		}
+
+		PlayerVolume: {
+			Label: Player Volume
+			Tooltip: Volume of other Players' Projectors.
+		}
+
+		PlayerProjectionTint: {
+			Label: Player Projection Tint
+			Tooltip: Tint of other Players' Projectors.
+		}
+
+		ShowTraderWareRefreshMessage: {
+			Label: Show Trader Ware Refresh Message
+			Tooltip: Whether or not to display a message when the Projectio Trader has refreshed their shop.
+		}
+
+		PlayerInterfaceXOffset: {
+			Label: Player Interface X Offset
+			Tooltip: X Offset of the Player Projctor Slots/Interface
+		}
+
+		PlayerInterfaceYOffset: {
+			Label: Player Interface Y Offset
+			Tooltip: Y Offset of the Player Projctor Slots/Interface
+		}
+	}
+
+	ProjectionsServerConfig: {
+		DisplayName: Projections Server Config
+
+		DisablePrices: {
+			Label: Disable Prices
+			Tooltip: Whether or not to disable prices on Projections/P-Materials that haven't been bought.
+		}
+
+		AllowProjectionsInFrontOfPlayer: {
+			Label: Allow Projections In Front Of Player
+			Tooltip: Should Projectors be allowed to use the 'After Players' draw layer.
+		}
+
+		MaxProjectionValue: {
+			Label: Max Projection Value
+			Tooltip: A cap for the maximum copper value of a Projection/P-Material, -1 means no cap.
+		}
+
+		AllowProjectionGiveCommands: {
+			Label: Allow Projection Give Commands
+			Tooltip: Should clients be able to run commands that give Projections.
+		}
+
+		BuildIgnoreListFromOpenVoidBag: {
+			Label: Build Ignore List From Open Void Bag
+			Tooltip: Whether or not Projections/P-Materials in an OPEN Void Bad will be included in the ignore list when deciding drop pools.
+		}
+	}
+}
+
+Projectiles.AllenKey.DisplayName: Allen Key
